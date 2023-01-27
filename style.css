@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+.container{
+    margin: 0px auto;
+    width: 1000px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+    height: 50px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2.3em;
+}
+.search {
+    padding: 5px 15px;
+    margin: 120px;
+    flex: 1;
+    font-size: 1.3em;
+}
+
+.btn-login {
+    padding: 5px 15px;
+    font-size: 1.3em;
+    cursor: pointer;
+    box-shadow: 3px 3px black;
+    border: 2px solid black;
+    color: white;
+    background-color: hsl(215, 100%, 56%);
+}
+
+.left-main {
+    display: flex;
+}
+
+.left-flex {
+    flex: 2;
+}
+
+.right-flex {
+    flex: 1;
+    margin-left: 40px;
+    }
+
+.intro {
+    flex: 1;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.define {
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    border: 2px solid grey; 
+    margin-top: 30px;
+    padding: 50px;
+    align-items: center;
+}
+
+.def-link {
+    flex: 3;
+    margin-left: 60px;
+    font-size: 1.4rem;
+}
+
+.intro p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.btn-likes {
+    background-color: hsl(45, 85%, 61%);;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+}
+
+.AD {
+    background-color: white;
+    margin-top: 32px;
+    padding: 30px;
+    border: 2px solid #999;
+    height: 130px;
+    font-size: 1.5rem;
+}
+
+.add {
+    background-color: #93c47d;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+    height: 35px;
+}
+
+a {
+    color: blue;
+}
